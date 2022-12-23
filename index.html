@@ -1,4 +1,50 @@
-<html><head><title>xé10 redirecionar</title></head>
-  <body><center><h1>Clique</h1><a href="http://xe10glb.github.io/home.html"><p>Link acessar: http://xe10glb.github.io/home.html</p></a></center>
-  </body>
+<center><h1>Clique</h1><a href="http://xe10glb.github.io/home.html"><p>Link acessar: http://xe10glb.github.io/home.html</p></a></center>
+<html>
+<head><title>Xé10 - Surf</title>
+<meta content='10 ;url=AutoSurf-Neno.html' http-equiv='refresh'/>
+<style type="text/css">
+body {
+   margin:0;
+}
+</style>
+<style type="text/css">
+ .page{
+  position: relative; width:100%; height:100%; overflow:hidden;
+ }
+ .page iframe {
+ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+ </style>
+</head>
+<body>
+<script language="JavaScript">
+  function popupWin() {
+  text =  "<html>\n<head>\n<title>PopUp Automática</title>\n<body>\n";
+  text += "<center>\n<br>";
+  text += "<img src='http://'>";
+  text += "</center>\n</body>\n</html>\n";
+  setTimeout('windowProp(text)', 3000);  // tempo para esperar para abrir
+  }
+  function windowProp(text) {
+  newWindow = window.open('https://traffdaq.com/delivery/dl/91134?category=general','newWin','width=800,height=500');
+  newWindow.document.write(text);
+  setTimeout('closeWin(newWindow)', 30000); // tempo para ficar aberto antes de fechar
+  }
+  function closeWin(newWindow) {
+  newWindow.close();
+  }
+  
+  window.onload = popupWin();
+  
+  </script>
+
+<div class="page">
+     <iframe src="https://traffdaq.com/delivery/dl/91134?category=general" frameborder="0" allowfullscreen></iframe>
+ </div>
+  <center><h1>Clique</h1><a href="http://xe10glb.github.io/home.html"><p>Link acessar: http://xe10glb.github.io/home.html</p></a></center>
+</body>
 </html>
