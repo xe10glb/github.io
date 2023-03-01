@@ -1,2 +1,3 @@
-# github.io
+# xe10glb.github.io
 New web site in construction ok, on start...
+Project waiting for a higher return to be applied in practice. (Still in web development phase).
